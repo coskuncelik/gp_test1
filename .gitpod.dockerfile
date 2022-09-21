@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 
-RUN sudo apt-get update \
- && sudo apt-get install -y net-tools \
- && sudo apt-get install -y tree \
+RUN sudo apt update \
+ && sudo apt install -y net-tools \
+ && sudo apt install -y tree \
  && sudo rm -rf /var/lib/apt/lists/*
